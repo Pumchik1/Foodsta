@@ -1,0 +1,174 @@
+.list {
+    list-style: none;}
+
+.link {
+    text-decoration: none;}
+
+.body{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.14}
+     
+    /*---------------------------------------page-header---------------------------------------*/
+.header-link {
+   font-size: 14px;
+   line-height: 1.14;
+   color: #2C2C2C;}
+
+.header-link:hover,
+.header-link:focus{
+    color: #BBF330;}
+
+.header-btn {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 2;
+    text-align: right;
+    color: #2C2C2C;
+    cursor:pointer;}
+
+.header-btn:hover,
+.header-btn:focus{
+    color: #BBF330;} 
+    
+    /*------------------------------------------------Hero------------------------------------------*/
+
+.hero-titel {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.2;
+    color: #2C2C2C;}
+        
+.hero-sudtitle {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #2C2C2C;}
+
+.hero-btn {font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+     line-height: 1.5;
+    text-align: right;
+    color: #2C2C2C;
+     cursor: pointer;}
+    
+.hero-btn {
+    background: #BBF330;}
+
+        /*---------------------------------------Offerings-----------------------------------------*/
+.about-title {
+    font-size: 42px;
+     line-height: 1.2;
+    color: #2C2C2C;}
+        
+.about-description {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #2C2C2C;}
+     
+.about-subject {
+    font-size: 18px;
+    line-height: 1.4;
+    color: #2C2C2C;}
+
+.description {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #2C2C2C;}
+    
+.about-btm {
+     font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #2C2C2C;
+    cursor:pointer;}
+    
+.about-btm {
+     background-color: #ffffff;}
+/*--------------------------------------Favorites--------------------------------------------------------*/
+        
+.food-title {
+    font-size: 42px;
+    line-height: 1.7;
+    color: #2C2C2C;}
+    
+.food-descreption {
+    font-size: 16px;
+    line-height:1.9;
+    text-align: center;
+    color: #2C2C2C;}
+    
+/*----------------------------------Customers Say-----------------------------------------------------*/
+.say {
+    background: #FFE550;}
+
+.say-tiatel {
+    font-size: 42px;
+    line-height: 1.7;
+    color: #2C2C2C;}
+        
+.say-description {
+    font-size: 16px;
+    line-height: 1,9;
+    color: #2C2C2C;}
+
+.say-dascription {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.7;
+    color: #2C2C2C;}
+    
+    /*-------------------------------------Special Offers----------------------------------------------*/
+    
+.special-title {
+    font-size: 42px;
+    line-height: 1.2;
+    color: #2C2C2C;}
+    
+.special-description {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #2C2C2C;}
+    
+.special-btn{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #2C2C2C;
+    cursor: pointer;}
+    
+.special-btn{
+    background: #BBF330;}
+    
+ /*---------------------------------footer--------------------------------------------------------*/
+ 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;}
+
+.footer-link {
+    font-size: 12px;
+    line-height: 1.17 ;
+    color: #7EB101;}
+
+.footer-descreption{
+    font-size: 12px;
+    line-height: 14px;
+    color: #2C2C2C;}
+
+
