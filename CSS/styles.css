@@ -10,7 +10,10 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 1.14}
-     
+ .container {
+    width: 1278px;
+    margin: 0 auto;
+    padding: 0 15px;}
     /*---------------------------------------page-header---------------------------------------*/
 .header-link {
    font-size: 14px;
@@ -104,22 +107,131 @@
     color: #2C2C2C;}
     
 /*----------------------------------Customers Say-----------------------------------------------------*/
+.say{ 
+    width: 1280px;
+    height: 647px;
+    background-image: url(../img/say.jpg.jpg);}
+.container {
+    width: 1278px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.say-content{
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
 .say-tiatel{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-  font-size: 42px;
-  line-height: 1.7;
-  color: #2C2C2C;}
-  
-  .say-description{
+   font-size: 42px;
+   line-height: 1.7;
+    color: #2C2C2C;
+   margin-bottom: 20px;
+}
+
+
+
+
+
+.say-list{
+    display: flex;
+    gap:140px;
+}
+ 
+.say-img{
+    display: flex;
+    align-self: center;
+    align-content: center;
+    }
+
+.say-subject-description{
+    display:block ;
+    
+    
+}  
+.say-item-box{
+    display: block;
+    box-sizing: border-box;
+    width: 501px;
+    height: 227px;
+    margin-left: 16px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    background: #FEFEFE;
+    border-radius: 0px 30px 30px 30px;}
+
+.say-description-img{
+    display: block;
     font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #2C2C2C;
+    margin-left: 14px;
+    margin-right: 14px;}
+.say-subject-m{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.5;
+        margin-bottom: 2px;
+        margin-left: 16px; 
+        color: #2C2C2C;
+}
+.say-description-m{
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,5;
+    margin-left: 16px;
+    margin-bottom: 18px;
+    color: #2C2C2C;
+}
+.current{
+    width: 52px;
+    color: #505050;}
+
+.current::after {
+      content: "";
+      margin-left: 16px;
+      width: 52px;
+      border: 1px solid #7EB101;
+     /* transform: rotate(90deg);*/}
+    
+
+
+
+
+
+
+.say-foto{
+    margin-top: 42px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    margin-left: 14px;
+}
+
+
+.say-description{
+ font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height:1.87;
+  margin-bottom:32px;
+  margin-right: 14px;
+  margin-left: 14px;
   color: #2C2C2C;}
-  
+
+ 
+ 
+ 
+ 
+ 
   .say-dascription-inf{
     font-family: 'Roboto';
   font-style: normal;
@@ -137,7 +249,7 @@
   color: #2C2C2C;}
   
   .say-description-tem{
-    font-family: 'Roboto';
+font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
